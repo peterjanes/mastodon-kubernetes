@@ -1,0 +1,22 @@
+apiVersion: v1
+data:
+  DB_HOST: db
+  DB_NAME: postgres
+  DB_PORT: "5432"
+  DEFAULT_LOCALE: en-CA
+  ES_ENABLED: "true"
+  ES_HOST: es
+  ES_PORT: "9200"
+  LOCAL_DOMAIN: your-domain.example.com
+  REDIS_HOST: redis
+  REDIS_PORT: "6379"
+  SINGLE_USER_MODE: "true"
+  SMTP_DELIVERY_METHOD: smtp
+  SMTP_FROM_ADDRESS: your-address@your-domain.example.com
+  SMTP_SERVER: smtp.example.com
+  SMTP_PORT: "465"
+  SMTP_TLS: "true"
+  STREAMING_CLUSTER_NUM: "1"
+kind: ConfigMap
+metadata:
+  name: mastodon
